@@ -14,7 +14,7 @@ void setup() {
   oscP5 = new OscP5(this,1234);
   
   for(int i = 0; i < 2; i++){
-    sv[i] = new sensorVisualizer(20 + i*width/2, 0);
+    sv[i] = new sensorVisualizer(10 + i*width/2, 0);
   }
 }
  
